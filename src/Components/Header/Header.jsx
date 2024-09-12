@@ -9,20 +9,20 @@ const Header = () => {
             <NavLink to="/" className={({ isActive }) =>`block px-3 py-2 rounded-md text-base font-medium opacity-80 hover:opacity-100 ${isActive ? 'bg-white text-black hover:text-black p-3 opacity-100' : ''}`}>Home</NavLink>
             <NavLink to="/services" className={({ isActive }) =>`block px-3 py-2 rounded-md text-base font-medium opacity-80 hover:opacity-100 ${isActive ? 'bg-white text-black hover:text-black p-3 opacity-100' : ''}`}>Services</NavLink>
             <NavLink to="/about" className={({ isActive }) =>`block px-3 py-2 rounded-md text-base font-medium opacity-80 hover:opacity-100 ${isActive ? 'bg-white text-black hover:text-black p-3 opacity-100' : ''}`}>About</NavLink>
-            <NavLink to="/contact-us" className={({ isActive }) =>`block px-3 py-2 rounded-md text-base font-medium opacity-80 hover:opacity-100 ${isActive ? 'bg-white text-black hover:text-black p-3 opacity-100' : ''}`}>Contact Us</NavLink>
+            <NavLink to="/contact" className={({ isActive }) =>`block px-3 py-2 rounded-md text-base font-medium opacity-80 hover:opacity-100 ${isActive ? 'bg-white text-black hover:text-black p-3 opacity-100' : ''}`}>Contact</NavLink>
             
 
         </>
     }
 
     return (
-        <nav className="text-white absolute w-full">
+        <nav className="text-white absolute w-full top-0">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link to="/" className="text-2xl font-bold">
-                            Developer Baby
+                            Web Hero
                         </Link>
                     </div>
 

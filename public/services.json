@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Basic Package",
+      "service": "Single-Page Web Application Development",
+      "price": 100,
+      "description": "I will create a professional single-page web application tailored to your business needs using the MERN stack. The design will be responsive, modern, and fast.",
+      "features": [
+        "Single-page app (SPA)",
+        "Responsive design (mobile & desktop)",
+        "Up to 3 sections (e.g., Home, About, Contact)",
+        "Basic form (e.g., Contact form)",
+        "Deployment on Firebase or Vercel",
+        "1 week of post-launch support"
+      ],
+      "topFeatures": [
+        "Single-page app",
+        "Responsive design",
+        "Firebase/Vercel deployment"
+      ],
+      "delivery_time": "3 days"
+    },
+    
+    {
+      "name": "Standard Package",
+      "service": "Full-Stack Web Application with Basic Backend",
+      "price": 200,
+      "description": "I will develop a complete full-stack web application using the MERN stack, with a focus on both frontend and backend. This is perfect for small businesses or personal projects.",
+      "features": [
+        "Full-stack web application (SPA)",
+        "User authentication (Sign-up/Login)",
+        "Basic CRUD functionality (e.g., Add/Edit/Delete items)",
+        "Up to 5 pages/sections",
+        "API integration",
+        "Database setup (MongoDB)",
+        "Responsive design (mobile & desktop)",
+        "Deployment on Firebase or Vercel",
+        "2 weeks of post-launch support"
+      ],
+      "topFeatures": [
+        "User authentication",
+        "API integration",
+        "MongoDB database setup"
+      ],
+      "delivery_time": "5 days"
+    },
+    
+    {
+      "name": "Premium Package",
+      "service": "Advanced Full-Stack Web Application with Complex Features",
+      "price": 300,
+      "description": "I will build a fully-featured, complex web application tailored to your business using the MERN stack. This package is ideal for startups, e-commerce, or any business that requires a robust web presence.",
+      "features": [
+        "Full-stack web application (SPA)",
+        "User roles & permissions (Admin/User)",
+        "Advanced CRUD operations",
+        "E-commerce functionality (payment integration, shopping cart)",
+        "Custom API development",
+        "Database optimization (MongoDB)",
+        "Third-party API integration",
+        "Complete security features (JWT, HTTPS)",
+        "Deployment on Firebase or Vercel",
+        "1 month of post-launch support"
+      ],
+      "topFeatures": [
+        "User roles & permissions",
+        "E-commerce functionality",
+        "Custom API development"
+      ],
+      "delivery_time": "7 days"
+    }
+  ]
+  

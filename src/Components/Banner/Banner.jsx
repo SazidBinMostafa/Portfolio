@@ -43,9 +43,9 @@ function Banner() {
         <section className="banner flex flex-col-reverse lg:flex-row items-center justify-between p-5 py-14">
             <div className="text-white font-semibold text-center max-w-96">
                 <h3 className="text-xl">Hey there!</h3>
-                <h3 className="text-5xl my-3">I am Sazid</h3>
+                <h3 className="text-5xl my-3">I am Web Hero</h3>
                 <h3 className="text-3xl">{`<${text.toUpperCase()}>`}</h3>
-                <p>{"I create dynamic and magical web experiences that blend creativity with functionality. Dive into my work and let's build something amazing!"}</p>
+                <p className="font-light">{"I create dynamic and magical web experiences that blend creativity with functionality. Dive into my work and let's build something amazing!"}</p>
             </div>
             <div>
                 <img src={astronaut} alt="" />

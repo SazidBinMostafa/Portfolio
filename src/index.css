@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
+  background-image: url(/src/assets/img/banner-bg.png);
+  background-repeat: no-repeat;
   background-color: #121212;
-    font-family: "Carter One", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }

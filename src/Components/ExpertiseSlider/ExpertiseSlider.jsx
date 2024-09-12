@@ -1,12 +1,12 @@
-import HTML from '../../assets/img/Skills/HTML.svg'
-import CSS from '../../assets/img/Skills/CSS.svg'
-import Tailwind from '../../assets/img/Skills/Tailwind.svg'
-import JavaScript from '../../assets/img/Skills/JavaScript.svg'
-import Firebase from '../../assets/img/Skills/Firebase.svg'
-import React from '../../assets/img/Skills/React.svg'
-import NodeJS from '../../assets/img/Skills/NodeJS.svg'
-import ExpressJS from '../../assets/img/Skills/ExpressJS.svg'
-import MongoDB from '../../assets/img/Skills/MongoDB.svg'
+import HTML from '../../assets/img/Expertise/HTML.svg'
+import CSS from '../../assets/img/Expertise/CSS.svg'
+import Tailwind from '../../assets/img/Expertise/Tailwind.svg'
+import JavaScript from '../../assets/img/Expertise/JavaScript.svg'
+import Firebase from '../../assets/img/Expertise/Firebase.svg'
+import React from '../../assets/img/Expertise/React.svg'
+import NodeJS from '../../assets/img/Expertise/NodeJS.svg'
+import ExpressJS from '../../assets/img/Expertise/ExpressJS.svg'
+import MongoDB from '../../assets/img/Expertise/MongoDB.svg'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
