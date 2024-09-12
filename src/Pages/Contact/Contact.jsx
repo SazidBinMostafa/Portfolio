@@ -29,9 +29,11 @@ function Contact() {
                 setButtonText("Send")
                 Swal.fire({
                     icon: "success",
-                    title: "Your work has been saved",
-                    timer: 1500
+                    title: "You have successfully sent a message",
+                    timer: 1500,
                   });
+                  
+                  e.target.reset()
             }
         })
 

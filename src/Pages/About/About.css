@@ -1,0 +1,53 @@
+.border-container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .border-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .border-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .border-t-blue-500 {
+    border-top: 4px solid blue;
+  }
+  
+  .border-r-red-500 {
+    border-right: 4px solid red;
+  }
+  
+  .border-b-green-500 {
+    border-bottom: 4px solid green;
+  }
+  
+  .border-l-yellow-500 {
+    border-left: 4px solid yellow;
+  }
+  
+  .icon {
+    position: absolute;
+  }
+  
+  .animate-rotate {
+    animation: rotateBorder 8s linear infinite;
+  }
+  
+  @keyframes rotateBorder {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

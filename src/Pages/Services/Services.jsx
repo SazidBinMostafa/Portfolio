@@ -12,7 +12,7 @@ function Services() {
     }, [])
 
     return <section id="Services">
-        <div className="mt-14">
+        <div className="my-14">
             <h1 className="text-center text-3xl md:text-4xl lg:text-5xl ">Packages</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 mx-5">
                 {services.map((service, index) => <ServiceCard key={index} service={service}></ServiceCard>)}
