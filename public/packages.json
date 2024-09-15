@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "name": "Basic Package",
       "service": "Single-Page Web Application Development",
       "price": 100,
@@ -21,6 +22,7 @@
     },
     
     {
+      "id": 2,
       "name": "Standard Package",
       "service": "Full-Stack Web Application with Basic Backend",
       "price": 200,
@@ -45,6 +47,7 @@
     },
     
     {
+      "id": 3,
       "name": "Premium Package",
       "service": "Advanced Full-Stack Web Application with Complex Features",
       "price": 300,

@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 
 
 function ServiceCard({ service }) {
+  const id = service?.id;
   const name = service?.name;
   const serviceInfo = service?.service;
   const price = service?.price;
@@ -35,9 +37,9 @@ function ServiceCard({ service }) {
           <div className="flex justify-between items-center mb-4">
             <p className="text-3xl font-bold text-indigo-300">${price}</p>
           </div>
-          <button className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-md hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-opacity-50 transition-all duration-300">
+          <Link to={`/package/details/${id}`} className="block text-center w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-md hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-opacity-50 transition-all duration-300">
             View Details
-          </button>
+          </Link>
         </div>
       </div>
       {/* Animated Glowing Border */}

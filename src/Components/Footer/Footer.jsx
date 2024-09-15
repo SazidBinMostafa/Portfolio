@@ -19,22 +19,17 @@ function Footer() {
                         <h3 className="text-xl text-indigo-400 font-semibold">Quick Links</h3>
                         <ul className="space-y-2">
                             <li>
-                                <a href="#about" className="hover:text-indigo-400 transition duration-300">
+                                <a href="/about" className="hover:text-indigo-400 transition duration-300">
                                     About Me
                                 </a>
                             </li>
                             <li>
-                                <a href="#projects" className="hover:text-indigo-400 transition duration-300">
-                                    Projects
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#services" className="hover:text-indigo-400 transition duration-300">
+                                <a href="/services" className="hover:text-indigo-400 transition duration-300">
                                     Services
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact" className="hover:text-indigo-400 transition duration-300">
+                                <a href="/contact" className="hover:text-indigo-400 transition duration-300">
                                     Contact Me
                                 </a>
                             </li>
